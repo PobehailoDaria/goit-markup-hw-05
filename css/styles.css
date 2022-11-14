@@ -145,6 +145,14 @@ h6 {
 .current {
   color: var(--brand-color);
 }
+
+.current::after {
+  content: "";
+  display: block;
+height: 4px;
+  border-radius: 2px;
+  background-color: var(--brand-color);
+}
 .nav-item:hover,
 .nav-item:focus {
   color: var(--brand-color);
